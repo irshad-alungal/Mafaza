@@ -1,0 +1,39 @@
+/*Primary Colors*/
+$color1: #0eb1a7;
+$color2: #91cc87;
+$color3: #64c399;
+$color4:#ff968f;
+$color5:#fff8f6;
+/*Secondary Colors*/
+$white: #ffffff;
+$lightGray: #f5f8f8;
+$borderGray: #ebedf3;
+$visibleGray: #e0e0e0;
+$textGray: #909294;
+$gray: #5d5e5f;
+$darkGray: #242323;
+$black: #0b0b0b;
+
+/*Form Colors*/
+$red: #ff3232;
+$green: #4ac434;
+$blue: #385bf7;
+$yellow: #f5a905;
+$fGray: #919191;
+$inputBorder:#eef7f5;
+$inputColor1:#fbfffe;
+$inputColor2:#b4e5ee;
+$inputColor3:rgb(151, 239, 255);
+$inputColor4:#82fbff;
+
+/*Gradients*/
+$gradient1: linear-gradient(to left top, #0eb1a7, #3cb99f, #5ac097, #76c68e, #91cc87);
+$gradient2:linear-gradient(to right bottom, #0eb1a7, #099990, #05837b, #026c65, #005751);
+$gradient3:linear-gradient(to right top, #ffe1c6, #ffe5cb, #ffe8d0, #ffecd5, #ffefda, #fff0db, #fff0dd, #fff1de, #fff0dc, #ffeed9, #ffedd7, #ffebd5);
+$gradient4: radial-gradient(circle, #ffffff, #fefefe, #fcfdfd, #fbfcfc, #fafbfa, #f9fafa, #f8f9fa, #f9f8f9, #f9f7f8, #f9f7f8, #f8f6f7, #f8f6f6);
+
+/*Transitions*/
+$transition1 : all .3s cubic-bezier(0, 0, .5, 1);
+$transition2 :all 0.5s cubic-bezier(0.37, 0, 0.63, 1);
+$transition3 :all 0.7s cubic-bezier(0.37, 0, 0.63, 1);
+$transition4 :all 1s cubic-bezier(0.37, 0, 0.63, 1);

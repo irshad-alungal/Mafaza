@@ -1,0 +1,45 @@
+@import "../common/variables.scss";
+@import "../common/_breakpoints.scss";
+@import "../common/_functions.scss";
+
+
+.color1 {
+  background: #0EB1A7;
+  background: linear-gradient(to right, #0EB1A7 7%, #64C399 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+//About Section//
+#aboutUsSection {
+    .aboutDiv {
+        width: 100%;
+      .content {
+        width: 100%;
+        .subHeading {
+          font-weight: 400;
+          margin-top: $baseline;
+          border-left: 2px solid $color1;
+          padding-left: .5rem;
+        }
+  
+        p {
+          font-weight: 300;
+  
+          @include media-lg {
+            font-size: $font-5;
+          }
+        }
+        img{
+            margin-top: $baseline;
+            width:150px;
+            background-color: $white;
+            padding: .5rem;
+            @include media-lg {
+                width:200px;
+              }
+        }
+      }
+    }
+  
+  }

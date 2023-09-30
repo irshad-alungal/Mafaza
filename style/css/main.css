@@ -1,0 +1,761 @@
+@import"https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap";
+@import"https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css";
+@import"https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css";
+@import"https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css";
+
+.pageMargin {
+    padding-top: 4rem !important
+}
+
+@media(min-width: 1280px) {
+    .pageMargin {
+        padding-top: 5rem !important
+    }
+}
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle, #ffffff, #fefefe, #fcfdfd, #fbfcfc, #fafbfa, #f9fafa, #f8f9fa, #f9f8f9, #f9f7f8, #f9f7f8, #f8f6f7, #f8f6f6)
+}
+
+.section {
+    padding: 0 1.563rem;
+    z-index: 2
+}
+
+@media(min-width: 568px) {
+    .section {
+        padding: 0 2.441rem
+    }
+}
+
+@media(min-width: 768px) {
+    .section {
+        padding: 0 3.815rem
+    }
+}
+
+@media(min-width: 1024px) {
+    .section {
+        padding: 0 4.768rem
+    }
+}
+
+@media(min-width: 1280px) {
+    .section {
+        padding: 0 5.96rem
+    }
+}
+
+.sectionMargin {
+    margin: 0 1rem
+}
+
+@media(min-width: 360px) {
+    .sectionMargin {
+        margin: 0 1.5rem
+    }
+}
+
+@media(min-width: 568px) {
+    .sectionMargin {
+        margin: 0 2.441rem
+    }
+}
+
+@media(min-width: 768px) {
+    .sectionMargin {
+        margin: 0 3.052rem
+    }
+}
+
+@media(min-width: 1024px) {
+    .sectionMargin {
+        margin: 0 3.815rem
+    }
+}
+
+@media(min-width: 1280px) {
+    .sectionMargin {
+        margin: 0 4.768rem
+    }
+}
+
+@media(min-width: 1800px) {
+    .sectionMargin {
+        margin: 0 5.96rem
+    }
+}
+
+.sectionSpace {
+    padding-bottom: 2.441rem;
+    padding-top: 2.441rem
+}
+
+@media(min-width: 568px) {
+    .sectionSpace {
+        padding-top: 3.052rem;
+        padding-bottom: 3.052rem
+    }
+}
+
+@media(min-width: 768px) {
+    .sectionSpace {
+        padding-top: 3.815rem;
+        padding-bottom: 3.815rem
+    }
+}
+
+@media(min-width: 1280px) {
+    .sectionSpace {
+        padding-top: 4.768rem;
+        padding-bottom: 4.768rem
+    }
+}
+
+.sectionSpaceT {
+    padding-top: 2.441rem
+}
+
+@media(min-width: 568px) {
+    .sectionSpaceT {
+        padding-top: 3.052rem
+    }
+}
+
+@media(min-width: 768px) {
+    .sectionSpaceT {
+        padding-top: 3.815rem
+    }
+}
+
+@media(min-width: 1800px) {
+    .sectionSpaceT {
+        padding-top: 4.768rem
+    }
+}
+
+.sectionSpaceB {
+    padding-bottom: 2.441rem
+}
+
+@media(min-width: 568px) {
+    .sectionSpaceB {
+        padding-bottom: 3.052rem
+    }
+}
+
+@media(min-width: 768px) {
+    .sectionSpaceB {
+        padding-bottom: 3.815rem
+    }
+}
+
+@media(min-width: 1800px) {
+    .sectionSpaceB {
+        padding-bottom: 4.768rem
+    }
+}
+
+.innerSection {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1024px
+}
+
+.heading {
+    margin: 0;
+    color: #0b0b0b;
+    font-weight: 300
+}
+
+.subHeading {
+    margin: 0;
+    display: block;
+    color: #242323
+}
+
+.color1 {
+    color: #005e5c
+}
+
+.color2 {
+    color: #91cc87
+}
+
+#mainContainer {
+    margin: 0 auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    transition: all 1s cubic-bezier(0.37, 0, 0.63, 1);
+    padding-bottom: 4.768rem
+}
+
+@media(min-width: 768px) {
+    #mainContainer {
+        padding-bottom: 0
+    }
+}
+
+#mainContainer #headerSection {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection {
+        height: 6rem
+    }
+}
+
+#mainContainer #headerSection .logoDiv {
+    width: 160px;
+    min-width: 160px;
+    display: block;
+    cursor: pointer
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection .logoDiv {
+        width: 200px;
+        min-width: 200px
+    }
+}
+
+#mainContainer #headerSection .logoDiv img {
+    cursor: pointer
+}
+
+#mainContainer #headerSection .menuSectionIntro {
+    transform: none !important
+}
+
+#mainContainer #headerSection #menuSection {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 101;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    overflow-y: auto;
+    transition: all .3s ease-in;
+    transform: translateX(-100%)
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection {
+        position: relative;
+        width: auto;
+        height: 100%;
+        align-items: flex-start;
+        overflow: unset;
+        background-color: #fff;
+        transform: none;
+        padding: 0;
+        margin-left: auto
+    }
+}
+
+#mainContainer #headerSection #menuSection .menuContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer {
+        height: 100%;
+        flex-direction: row
+    }
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv {
+        height: auto
+    }
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv:hover .mainMenu {
+    color: #005e5c
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv:hover .mainMenu {
+        border-bottom: 2px solid #005e5c
+    }
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv:hover .mainMenu1 {
+    color: #005e5c
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv:hover .mainMenu1 {
+        border-bottom: 2px solid #005e5c
+    }
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv:hover .subMenu {
+        height: auto;
+        display: block
+    }
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #0b0b0b;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.563rem;
+    font-weight: 300;
+    padding: 1rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    border-bottom: 2px solid rgba(0, 0, 0, 0)
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu {
+        color: #0b0b0b;
+        font-family: "Inter Tight", sans-serif;
+        font-size: .9rem;
+        font-weight: 500;
+        padding: 1rem .5rem
+    }
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu img {
+    top: -2px;
+    width: 25px;
+    opacity: .5
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu:hover {
+    color: #005e5c
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu:hover {
+        border-bottom: 2px solid #cd992b
+    }
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #0b0b0b;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1.563rem;
+    font-weight: 300;
+    padding: 1rem;
+    white-space: nowrap;
+    text-transform: uppercase;
+    transition: all .3s ease-in-out;
+    border-bottom: 2px solid rgba(0, 0, 0, 0)
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu1 {
+        color: #0b0b0b;
+        font-family: "Inter Tight", sans-serif;
+        font-size: .9rem;
+        font-weight: 500;
+        padding: 1rem .5rem
+    }
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu1 img {
+    top: -2px;
+    width: 25px;
+    opacity: .5
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu1:hover {
+    color: #005e5c
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu1:hover {
+        border-bottom: 2px solid #cd992b
+    }
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenuIntro {
+    height: auto !important;
+    display: block !important
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenuIntro .menuCloseBg {
+    display: block !important
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenu {
+    width: 100%;
+    height: 0;
+    display: none;
+    background-color: #fff;
+    border-top: none;
+    overflow: hidden;
+    text-align: left
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 250px;
+        box-shadow: rgba(93, 50, 50, .11) 0px 50px 100px -20px, rgba(0, 0, 0, .158) 0px 30px 60px -30px;
+        border: 1px solid #ebedf3
+    }
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenu .menuCloseBg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100vh;
+        display: none
+    }
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenu a {
+    display: block;
+    color: #0b0b0b;
+    font-size: .9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 1rem;
+    z-index: 2;
+    text-align: left;
+    transition: all .3s ease-in;
+    cursor: pointer
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenu a {
+        border-bottom: 1px solid #ebedf3
+    }
+}
+
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenu a:hover {
+    bottom: 0;
+    color: #fff;
+    background-color: #005e5c
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenu a:hover {
+        color: #cd992b;
+        background-color: #fff
+    }
+}
+
+#mainContainer #headerSection .chat {
+    display: flex;
+    align-content: center;
+    color: #cd992b;
+    font-size: .8rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: .64rem 1rem;
+    border: 1px solid #005e5c;
+    border-radius: 3.052rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out
+}
+
+#mainContainer #headerSection .chat:hover {
+    color: #005e5c;
+    border: 1px solid #cd992b
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection .chat {
+        font-size: .8rem;
+        padding: .8rem 1rem;
+        margin-left: auto
+    }
+}
+
+#mainContainer #headerSection .chat img {
+    width: 15px;
+    margin-left: .5rem
+}
+
+#mainContainer #headerSection #tabMenu {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 101;
+    width: 100vw;
+    height: 4.5rem;
+    display: flex;
+    background-color: #fff;
+    border-top: 1px solid #ebedf3;
+    box-shadow: rgba(0, 0, 0, .034) 0px -1px 2px 0px;
+    transform: all .3s ease-in
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #tabMenu {
+        position: relative;
+        width: auto;
+        height: auto;
+        overflow: unset;
+        transform: none;
+        border: none;
+        box-shadow: none
+    }
+}
+
+#mainContainer #headerSection #tabMenu #menuIcon {
+    width: 4rem;
+    max-width: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    color: #fff;
+    font-size: .9rem;
+    font-family: "Inter Tight", sans-serif;
+    font-weight: 400;
+    background-color: #0b0b0b;
+    transition: all .7s ease-in
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #tabMenu #menuIcon {
+        display: none
+    }
+}
+
+#mainContainer #headerSection #tabMenu #menuIcon:hover {
+    background-color: #242323
+}
+
+#mainContainer #headerSection #tabMenu #menuIcon .menuIconBar {
+    width: 100%;
+    height: 2px;
+    margin: 3px 0;
+    background-color: #fff;
+    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
+}
+
+#mainContainer #headerSection #tabMenu #menuIcon .menuBarOne {
+    transform: none;
+    width: 100%
+}
+
+#mainContainer #headerSection #tabMenu #menuIcon .menuBarOneIntro {
+    transform: rotate(45deg) translate(0px, 3.5px);
+    margin: 0 !important;
+    width: 80%
+}
+
+#mainContainer #headerSection #tabMenu #menuIcon .menuBarCenter {
+    opacity: 1;
+    transform: none;
+    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
+}
+
+#mainContainer #headerSection #tabMenu #menuIcon .menuBarCenterIntro {
+    opacity: 0 !important;
+    transform: translateX(10px)
+}
+
+#mainContainer #headerSection #tabMenu #menuIcon .menuBarTwo {
+    transform: none
+}
+
+#mainContainer #headerSection #tabMenu #menuIcon .menuBarTwoIntro {
+    transform: rotate(-45deg) translate(-2px, -2.5px);
+    margin: 0 !important;
+    width: 80%
+}
+
+#mainContainer #headerSection #tabMenu .contactMenu {
+    display: flex
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #tabMenu .contactMenu {
+        display: none;
+        flex-direction: column
+    }
+}
+
+#mainContainer #headerSection #tabMenu .contactMenu a {
+    width: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid #ebedf3
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #tabMenu .contactMenu a {
+        width: auto;
+        border: none;
+        justify-content: flex-end
+    }
+
+    #mainContainer #headerSection #tabMenu .contactMenu a:nth-child(1) {
+        margin-bottom: .25rem
+    }
+}
+
+#mainContainer #headerSection #tabMenu .contactMenu a img {
+    width: 25px
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #tabMenu .contactMenu a img {
+        display: none
+    }
+}
+
+#mainContainer #headerSection #tabMenu .contactMenu a span {
+    display: none
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #tabMenu .contactMenu a span {
+        display: block
+    }
+}
+
+#mainContainer #headerSection #tabMenu .enquireBtn {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #005e5c;
+    font-family: "Inter Tight", sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    white-space: nowrap;
+    transition: all .3s
+}
+
+@media(min-width: 1280px) {
+    #mainContainer #headerSection #tabMenu .enquireBtn {
+        color: #0b0b0b;
+        margin-left: 1rem;
+        padding-left: 1rem;
+        border-left: 1px solid #ebedf3
+    }
+}
+
+#mainContainer #headerSection #tabMenu .enquireBtn:hover {
+    color: #0b0b0b
+}
+
+@media(min-width: 1024px) {
+    #mainContainer #headerSection #tabMenu .enquireBtn:hover {
+        color: #005e5c
+    }
+}
+
+#mainContainer #footerSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 1.563rem;
+    padding-bottom: 1.563rem;
+    background-color: #fff
+}
+
+@media(min-width: 768px) {
+    #mainContainer #footerSection {
+        flex-direction: row
+    }
+}
+
+#mainContainer #footerSection .link {
+    margin-bottom: .5rem
+}
+
+#mainContainer #footerSection .link a {
+    margin: 0 .5rem;
+    color: #242323;
+    font-size: .8rem;
+    font-weight: 400;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
+}
+
+#mainContainer #footerSection .link a:hover {
+    color: #91cc87
+}
+
+#mainContainer #footerSection a,
+#mainContainer #footerSection p {
+    color: #242323;
+    font-weight: 300;
+    margin: 0;
+    font-size: .8rem
+}
+
+#mainContainer #footerSection a span,
+#mainContainer #footerSection p span {
+    font-weight: 400
+}
+
+#mainContainer #footerSection a {
+    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
+}
+
+#mainContainer #footerSection a:hover {
+    color: #005e5c
+}
+
+#mainContainer #footerSection .title {
+    margin-bottom: .8rem;
+    margin-top: 0
+}
+
+#mainContainer #footerSection p {
+    margin-bottom: .5rem
+}
+
+/*# sourceMappingURL=main.css.map */

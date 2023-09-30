@@ -1,0 +1,424 @@
+@import "../common/variables.scss";
+@import "../common/_breakpoints.scss";
+@import "../common/_functions.scss";
+
+#wallSection {
+  .aboutDiv {
+    background-color: $color1;
+    background: $gradient1;
+  padding: .5rem;
+
+    @include media-lg {
+      padding: $xsSpacing;
+    }
+
+    @include media-xl {
+      padding: $smSpacing;
+    }
+
+    .content {
+      width: 100%;
+
+      .heading {
+        color: $white;
+      }
+
+      .subHeading {
+        color: $white;
+        font-weight: 400;
+        margin-top: $baseline;
+        border-left: 2px solid $color1;
+        padding-left: 0.5rem;
+      }
+
+      p {
+        font-weight: 300;
+
+        @include media-lg {
+          font-size: $font-5;
+        }
+      }
+
+      img {
+        margin-top: $baseline;
+        width: 150px;
+        background-color: $white;
+        padding: 0.5rem;
+
+        @include media-lg {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
+
+//CONTENTCARDsECTION
+
+// .clinicSection {
+//  .title{
+
+//  }
+//  .contentDiv{
+//    display: flex;
+//   flex-wrap: wrap;
+//   width: 100%;
+
+//   .content {
+//     position: relative;
+//     width: 100%;
+//     padding: $s2;
+//     background: $lightGray;
+//     z-index: 33;
+//     box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+//     rgba(17, 17, 26, 0.1) 0px 0px 8px;
+//     order: 2;
+//     @include media-lg {
+//       position: absolute;
+//       top: 17%;
+//       right: 8%;
+//       width: 30%;
+//       max-width: 850px;
+//       padding: $smSpacing;
+//       border-radius: 0px;
+
+//     }
+//     &:hover{
+//         .more{
+//             &::before{
+//             width: 40px;}
+//         }
+//     }
+//     .text {
+//       @include media-lg {
+//         font-size: $font-5;
+//       }
+//     }
+//   }
+//   .media {
+//     width: 100%;
+   
+//     @include media-lg {
+//       width: 70%;
+//     }
+//     .clinicImg{
+//        max-height: 550px;
+
+//     }
+//   }
+//  }
+// }
+//pharmacy section//
+.pharmacySection,.clinicSection {
+  .title{
+    margin-top: 0;
+    padding: $baseline 0;
+    color: #0b0b0b;
+    font-weight: 300;
+  }
+  .contentDiv{
+    display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  .content {
+    position: relative;
+    width: 100%;
+    padding: $s2;
+    background: $lightGray;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    order: 2;
+    z-index: 33;
+    @include media-lg {
+      position: absolute;
+      top: 17%;
+      right: 8%;
+      width: 30%;
+      max-width: 850px;
+      padding: $xsSpacing;
+      border-radius: 0px;
+    
+    }
+    &:hover{
+        .more{
+            &::before{
+            width: 40px;
+        }
+        }
+    }
+    .text {
+      @include media-lg {
+        font-size: $font-5;
+      }
+    }
+  }
+  .media {
+    width: 100%;
+    max-height: 550px;
+    @include media-lg {
+      width: 70%;
+      overflow: hidden;
+    }
+  }
+  }
+}
+//more btn
+.more {
+    display: block;
+    margin-top: $baseline;
+    color: $black;
+    font-family: $fontFamily1;
+    font-weight: 300;
+    cursor: pointer;
+    transition: $transition1;
+
+    @include media-lg {
+      font-size: $font-5;
+    }
+
+    &::before {
+      content: '';
+      width: 30px;
+      height: 2px;
+      display: inline-block;
+      margin-bottom: 5px;
+      margin-right: .5rem;
+      background-color: $color1;
+      cursor: pointer;
+      transition: $transition1;
+    }
+  }
+
+#contentBanner{
+
+    width: 100%;
+  .serviceCard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $white;
+    margin-bottom: $xsSpacing;
+   
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+   
+
+    .content {
+      width: 100%;
+      padding: $font-4;
+      cursor: pointer;
+
+      @include media-lg {
+        padding: $xsSpacing;
+      }
+
+      @include media-xl {
+        padding: $smSpacing;
+      }
+
+      .title {
+        margin: 0;
+        font-weight: 300;
+        cursor: pointer;
+      }
+
+      .subHeading {
+        margin: 0;
+        margin-top: $baseline;
+        margin-bottom: $baseline;
+        font-weight: 400;
+
+      }
+
+      ul {
+        padding-left: $font-5;
+
+        li {
+          font-weight: 300;
+          list-style: disc;
+
+          @include media-lg {
+            font-size: $font-5;
+          }
+
+          &::marker {
+            color: $color1;
+          }
+        }
+      }
+
+      p {
+        cursor: pointer;
+
+        @include media-lg {
+          font-size: $font-5;
+        }
+      }
+
+   
+    }
+
+
+  }
+}
+
+
+//industriesSection
+
+#industriesSection {
+
+
+  
+
+.titleDiv{
+    text-align: center;
+    .title {
+        margin-top: 0;
+        margin-bottom: $baseline;
+        text-align: center;
+        color: $black;
+        font-weight: 300;
+        @include media-lg{
+          margin-top: $s4;
+        }
+      }
+}
+  .cardSection{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    @include media-md{
+        flex-direction: row;
+    }
+    .card{
+        width: 100%;
+       
+        margin-bottom: $s2;
+        
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+        rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+        @include media-md{
+            width: 50%;
+            max-width: 250px;
+            min-height: 250px;
+            margin: $baseline;
+
+        }
+       
+        @include media-lg{
+            width: 31%;
+         
+           
+
+        }
+
+      .imgDiv{
+        width: 100%;
+
+      } 
+      .contentDiv{
+      width: 100%;
+      text-align: center;
+      padding-bottom: $s1;
+
+      } 
+    }
+  }
+  
+  
+  }
+
+  //msemecontent
+
+  #msmeBanner{
+
+    width: 100%;
+ 
+
+  .serviceCard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $white;
+    margin-bottom: $xsSpacing;
+   
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(17, 17, 26, 0.1) 0px 0px 8px;
+
+   .heading{
+    text-align: center;
+   }
+
+    .content {
+      width: 100%;
+      padding: $font-4;
+      cursor: pointer;
+
+      @include media-lg {
+        padding: $xsSpacing;
+      }
+
+      @include media-xl {
+        padding: $smSpacing;
+      }
+
+      .title {
+        margin: 0;
+        font-weight: 300;
+        cursor: pointer;
+      }
+      &:hover{
+        .more{
+            &::before{
+            width: 40px;
+        }
+        }
+      }
+
+
+
+   
+    }
+
+
+  }
+}
+.twoImgSection{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  
+  .clinicImg{
+    width: 100%;
+  
+ margin-bottom: $baseline;
+    @include media-md{
+      width: 50%;
+      margin-bottom: unset;
+      border-right: 5px solid $white;
+
+  
+    }
+
+  }
+  .PharmacyImg{
+
+        width: 100%;
+         
+    @include media-md{
+      border-left: 5px solid $white;
+      
+      width: 50%; 
+    }
+
+
+  }
+}

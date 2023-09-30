@@ -1,0 +1,570 @@
+@import "../common/variables.scss";
+@import "../common/_breakpoints.scss";
+@import "../common/_functions.scss";
+
+
+.color1 {
+  background: #0EB1A7;
+  background: linear-gradient(to right, #0EB1A7 7%, #64C399 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#roboticWallSection {
+  margin-bottom: $xsSpacing;
+
+  .aboutDiv {
+    background-color: $color1;
+    background: $gradient1;
+    padding: $font-4;
+
+    @include media-lg {
+      padding: $xsSpacing;
+    }
+
+    @include media-xl {
+      padding: $smSpacing;
+    }
+
+    .content {
+      width: 100%;
+
+      .heading {
+        color: $white;
+      }
+
+      .subHeading {
+        color: $white;
+        font-weight: 400;
+        margin-top: $baseline;
+        border-left: 2px solid $color1;
+        padding-left: .5rem;
+      }
+
+      p {
+        font-weight: 300;
+
+        @include media-lg {
+          font-size: $font-5;
+        }
+      }
+
+      img {
+        margin-top: $baseline;
+        width: 150px;
+        background-color: $white;
+        padding: .5rem;
+
+        @include media-lg {
+          width: 200px;
+        }
+      }
+    }
+  }
+
+}
+
+//Service Section//
+#solutionSection {
+  background-color: $lightGray;
+
+  .serviceCard {
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $white;
+    margin-bottom: $xsSpacing;
+    cursor: pointer;
+
+    &:hover {
+      .content {
+        .more {
+          &::before {
+            width: 40px;
+          }
+        }
+      }
+    }
+
+    .content {
+      width: 100%;
+      padding: $font-4;
+      cursor: pointer;
+
+      @include media-lg {
+        width: 70%;
+        padding: $xsSpacing;
+      }
+
+      @include media-xl {
+        padding: $smSpacing;
+      }
+
+      .title {
+        margin: 0;
+        font-weight: 300;
+        cursor: pointer;
+      }
+      .subHeading {
+        margin: 0;
+        margin-top: $baseline;
+        margin-bottom: $baseline;
+        font-weight: 400;
+
+      }
+
+      ul {
+        padding-left: $font-5;
+
+        li {
+          font-weight: 300;
+          list-style: disc;
+
+          @include media-lg {
+            font-size: $font-5;
+          }
+
+          &::marker {
+            color: $color1;
+          }
+        }
+      }
+
+      p {
+        cursor: pointer;
+
+        @include media-lg {
+          font-size: $font-5;
+        }
+      }
+
+      .more {
+        display: block;
+        margin-top: $baseline;
+        color: $black;
+        font-family: $fontFamily1;
+        font-weight: 300;
+        cursor: pointer;
+        transition: $transition1;
+
+        @include media-lg {
+          font-size: $font-5;
+        }
+
+        &::before {
+          content: '';
+          width: 30px;
+          height: 2px;
+          display: inline-block;
+          margin-bottom: 5px;
+          margin-right: .5rem;
+          background-color: $color1;
+          cursor: pointer;
+          transition: $transition1;
+        }
+      }
+    }
+
+    .imageDiv {
+      width: 100%;
+      min-height: 300px;
+
+      @include media-lg {
+        width: 30%;
+      }
+
+      .arrow {
+        position: absolute;
+        bottom: .5rem;
+        right: .5rem;
+        width: 50px;
+
+        @include media-lg {
+          width: 100px;
+        }
+      }
+    }
+  }
+  .partner {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: $baseline;
+    background-color: $lightGray;
+    padding: $baseline;
+
+    @include media-sm {
+      flex-direction: row;
+    }
+
+    img {
+      width: 8rem;
+    }
+
+    p {
+      margin: 0;
+      text-align: center;
+      font-size: $baseline;
+      border-top: 1px solid $color1;
+      padding-top: $baseline;
+      margin-top: $baseline;
+
+      @include media-sm {
+        text-align: left;
+        border: none;
+        border-left: 1px solid $color1;
+        padding: 0;
+        padding-left: $baseline;
+        margin: 0;
+        margin-left: $baseline;
+      }
+
+      span {
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+#productSection {
+  .serviceCard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $white;
+    margin-bottom: $xsSpacing;
+    cursor: pointer;
+
+    &:hover {
+      .content {
+        .more {
+          &::before {
+            width: 40px;
+          }
+        }
+      }
+    }
+
+    .content {
+      width: 100%;
+      padding: $font-4;
+      cursor: pointer;
+
+      @include media-lg {
+        padding: $xsSpacing;
+      }
+
+      @include media-xl {
+        padding: $smSpacing;
+      }
+
+      .title {
+        margin: 0;
+        font-weight: 300;
+        cursor: pointer;
+      }
+
+      .subHeading {
+        margin: 0;
+        margin-top: $baseline;
+        margin-bottom: $baseline;
+        font-weight: 400;
+
+      }
+
+      ul {
+        padding-left: $font-5;
+
+        li {
+          font-weight: 300;
+          list-style: disc;
+
+          @include media-lg {
+            font-size: $font-5;
+          }
+
+          &::marker {
+            color: $color1;
+          }
+        }
+      }
+
+      p {
+        cursor: pointer;
+
+        @include media-lg {
+          font-size: $font-5;
+        }
+      }
+
+      .more {
+        display: block;
+        margin-top: $baseline;
+        color: $black;
+        font-family: $fontFamily1;
+        font-weight: 300;
+        cursor: pointer;
+        transition: $transition1;
+
+        @include media-lg {
+          font-size: $font-5;
+        }
+
+        &::before {
+          content: '';
+          width: 30px;
+          height: 2px;
+          display: inline-block;
+          margin-bottom: 5px;
+          margin-right: .5rem;
+          background-color: $color1;
+          cursor: pointer;
+          transition: $transition1;
+        }
+      }
+    }
+
+
+  }
+  
+}
+
+#pageWallSection {
+  width: 100%;
+  background-color: $white;
+
+  .pageWallBanner {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    overflow: hidden;
+    padding: $baseline;
+    color: $white;
+    background-color: $color2;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include media-lg {
+      padding: $xsSpacing;
+    }
+   
+
+    .heading {
+      color: inherit;
+      margin-bottom: $baseline;
+    }
+
+    .subHeading {
+      color: inherit;
+      font-weight: 300;
+      border-left: 3px solid $color1;
+      padding-left: .5rem;
+    }
+  }
+}
+
+//Service Section//
+#drugSourcingSection {
+
+  background-color: $lightGray;
+
+  .label {
+    color: $color1;
+    font-weight: 500;
+  }
+
+  .heading {}
+
+  .serviceDiv {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+
+    .serviceCard {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background-color: $white;
+      padding: $font-4 $baseline;
+      margin: 0 .5%;
+      margin-bottom: $font-4;
+      box-shadow: rgba(50, 50, 93, 0.055) 0px 13px 27px -5px, rgba(0, 0, 0, 0.075) 0px 8px 16px -8px;
+
+      @include media-lg {
+        width: 49%;
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 40px;
+        height: 3px;
+        border-radius: $radius;
+        margin-left: -20px;
+
+      }
+
+      .title {
+        margin: 0;
+        color: $black;
+        font-weight: 400;
+        border-left: 3px solid $color1;
+        padding-left: .5rem;
+      }
+
+      p {
+        margin-top: .5rem;
+      }
+
+      .btn {
+        margin-top: auto;
+        width: 100%;
+      }
+    }
+  }
+}
+
+
+
+//featuredProductSection
+#featuredProductSection {
+  overflow: hidden;
+
+  .title {
+    margin: 0;
+    margin-bottom: $baseline;
+    text-align: center;
+    color: $black;
+    font-weight: 300;
+  }
+
+
+  .slider {
+
+    overflow: hidden;
+    margin: auto;
+    margin-top: $fontSmall;
+    display: flex;
+
+
+    .slide-track {
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      
+
+      .slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 160px;
+        padding: 0 1.5rem;
+
+
+
+        @include media-md {
+          width: 25%;
+          margin-bottom: 1rem;
+          padding: .5rem;
+
+
+        }
+
+
+        img {
+          width: 120px;
+          height: 150px;
+          object-fit: contain;
+
+
+        }
+
+        p {
+          font-weight: 300;
+        }
+      }
+    }
+
+
+  }
+
+
+
+}
+
+
+//featuredProductSection2
+#featuredProductSection2 {
+  overflow: hidden;
+
+  .title {
+    margin: 0;
+    margin-bottom: $baseline;
+    text-align: center;
+    color: $black;
+    font-weight: 300;
+  }
+
+
+  .slider {
+
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+    margin-top: $fontSmall;
+    display: flex;
+    .slide-track {
+
+      display: flex;
+
+      flex-wrap: wrap;
+      justify-content: center;
+
+     
+
+      .slide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 160px;
+        padding: 0 1.5rem;
+
+
+
+        @include media-md {
+          margin-bottom: 1rem;
+          padding: .5rem;
+        }
+
+
+        img {
+          width: 120px;
+          height: 150px;
+          object-fit: contain;
+
+
+        }
+
+        p {
+          font-weight: 300;
+        }
+      }
+    }
+
+
+  }
+
+
+
+}
