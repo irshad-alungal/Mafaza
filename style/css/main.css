@@ -3,6 +3,9 @@
 @import"https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css";
 @import"https://cdn-uicons.flaticon.com/uicons-brands/css/uicons-brands.css";
 
+a {
+    text-decoration: none!important;
+}
 .pageMargin {
     padding-top: 4rem !important
 }

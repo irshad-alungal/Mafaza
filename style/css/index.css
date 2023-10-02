@@ -1,3 +1,7 @@
+a{
+    text-decoration: none!important;
+}
+
 .color1 {
     background: #0eb1a7;
     background: linear-gradient(to right, #0eb1a7 7%, #64c399 100%);
@@ -279,12 +283,13 @@
     background: linear-gradient(to right bottom, #0eb1a7, #099990, #05837b, #026c65, #005751)
 }
 
-#popupFormSection #popupForm #popupFormWrapper .slide .btnDiv .btn {
-    margin: 0 .5rem
+#popupFormSection #popupForm #popupFormWrapper .slide .btnDiv .btns {
+    margin: 0 .5rem;
+    border-radius: 30px;
 }
 
 @media(min-width: 568px) {
-    #popupFormSection #popupForm #popupFormWrapper .slide .btnDiv .btn {
+    #popupFormSection #popupForm #popupFormWrapper .slide .btnDiv .btns {
         min-width: 140px
     }
 }
@@ -603,7 +608,7 @@
 #aboutSection .aboutDiv .content .subHeading {
     font-weight: 400;
     margin-top: 1rem;
-    border-left: 2px solid #0eb1a7;
+    border-left: 2px solid #cd992b;
     padding-left: .5rem
 }
 
@@ -727,107 +732,156 @@
     line-height: 1.2
 }
 
-#serviceSection {
-    background-color: #f5f8f8
+#wesection .wesection{
+    padding-bottom: 2.441rem;
 }
-
-#serviceSection .serviceCard {
-    min-height: 400px;
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #fff;
-    margin-bottom: 2.441rem;
-    cursor: pointer
-}
-
-#serviceSection .serviceCard:hover .content .more::before {
-    width: 40px
-}
-
-#serviceSection .serviceCard .content {
-    width: 100%;
-    padding: 1.563rem;
-    cursor: pointer
-}
-
-@media(min-width: 1024px) {
-    #serviceSection .serviceCard .content {
-        width: 70%;
-        padding: 2.441rem
-    }
-}
-
-@media(min-width: 1280px) {
-    #serviceSection .serviceCard .content {
-        padding: 3.052rem
-    }
-}
-
-#serviceSection .serviceCard .content .title {
-    margin: 0;
+#wesection .content p {
     font-weight: 300;
-    cursor: pointer
 }
-
-#serviceSection .serviceCard .content p {
-    cursor: pointer
-}
-
 @media(min-width: 1024px) {
+    #wesection .content p {
+        font-size: 1.25rem
+    }
+}
+
+.timeline-text {
+    padding-left: 20px;
+}
+.fram-box {
+    height: 7rem!important;
+}
+#timeline {
+    background-color: #f5f8f8;
+    padding: 50px 0px;
+}
+#timeline .heading {
+    font-weight: 600;
+    display: inline;
+    border-bottom: 4px solid #cd992b;
+    padding-bottom: 3px;
+} 
+.timeline-item {
+    padding-top: 20px;
+}
+
+.header-style {
+    display: inline;
+    border-bottom: 4px solid #005e5c;
+    padding-bottom: 3px;
+}
+.heading-para {
+    padding-top: 1rem;
+}
+    /* #serviceSection {
+        background-color: #f5f8f8
+    }
+
+    #serviceSection .serviceCard {
+        min-height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        background-color: #fff;
+        margin-bottom: 2.441rem;
+        cursor: pointer
+    }
+
+    #serviceSection .serviceCard:hover .content .more::before {
+        width: 40px
+    }
+
+    #serviceSection .serviceCard .content {
+        width: 100%;
+        padding: 1.563rem;
+        cursor: pointer
+    }
+
+    @media(min-width: 1024px) {
+        #serviceSection .serviceCard .content {
+            width: 70%;
+            padding: 2.441rem
+        }
+    }
+
+    @media(min-width: 1280px) {
+        #serviceSection .serviceCard .content {
+            padding: 3.052rem
+        }
+    }
+
+    #serviceSection .serviceCard .content .title {
+        margin: 0;
+        font-weight: 300;
+        cursor: pointer
+    }
+
     #serviceSection .serviceCard .content p {
-        font-size: 1.25rem
+        cursor: pointer
     }
-}
 
-#serviceSection .serviceCard .content .more {
-    display: block;
-    margin-top: 1rem;
-    color: #0b0b0b;
-    font-family: "Oswald", sans-serif;
-    font-weight: 300;
-    cursor: pointer;
-    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
-}
+    @media(min-width: 1024px) {
+        #serviceSection .serviceCard .content p {
+            font-size: 1.25rem
+        }
+    }
 
-@media(min-width: 1024px) {
     #serviceSection .serviceCard .content .more {
-        font-size: 1.25rem
+        display: block;
+        margin-top: 1rem;
+        color: #0b0b0b;
+        font-family: "Oswald", sans-serif;
+        font-weight: 300;
+        cursor: pointer;
+        transition: all .3s cubic-bezier(0, 0, 0.5, 1)
     }
-}
 
-#serviceSection .serviceCard .content .more::before {
-    content: "";
-    width: 30px;
-    height: 2px;
-    display: inline-block;
-    margin-bottom: 5px;
-    margin-right: .5rem;
-    background-color: #0eb1a7;
-    cursor: pointer;
-    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
-}
+    @media(min-width: 1024px) {
+        #serviceSection .serviceCard .content .more {
+            font-size: 1.25rem
+        }
+    }
 
-#serviceSection .serviceCard .imageDiv {
-    width: 100%;
-    min-height: 300px
-}
+    #serviceSection .serviceCard .content .more::before {
+        content: "";
+        width: 30px;
+        height: 2px;
+        display: inline-block;
+        margin-bottom: 5px;
+        margin-right: .5rem;
+        background-color: #0eb1a7;
+        cursor: pointer;
+        transition: all .3s cubic-bezier(0, 0, 0.5, 1)
+    }
 
-@media(min-width: 1024px) {
     #serviceSection .serviceCard .imageDiv {
-        width: 30%
+        width: 100%;
+        min-height: 300px
     }
-}
 
-#serviceSection .serviceCard .imageDiv .arrow {
-    position: absolute;
-    bottom: .5rem;
-    right: .5rem;
-    width: 50px
-}
+    @media(min-width: 1024px) {
+        #serviceSection .serviceCard .imageDiv {
+            width: 30%
+        }
+    }
 
-@media(min-width: 1024px) {
     #serviceSection .serviceCard .imageDiv .arrow {
-        width: 100px
+        position: absolute;
+        bottom: .5rem;
+        right: .5rem;
+        width: 50px
+    }
+
+    @media(min-width: 1024px) {
+        #serviceSection .serviceCard .imageDiv .arrow {
+            width: 100px
+        }
+    } */
+#aboutSection .vision  {
+    padding-top: 2.441rem;
+}
+@media(min-width: 1024px) {
+    #aboutSection .vision{
+        padding-top: 0;
+        padding-left: 2.441rem;
     }
 }
 
@@ -878,10 +932,17 @@
     border: 1px solid #0eb1a7
 }
 
+#bannerSection .content .contact a span{
+    color: #000000;
+}
+#bannerSection .content .contact a span:hover{
+    color: #cd992b;
+}
+
 #bannerSection .content .contact a img {
     height: 20px;
     width: auto;
-    margin-right: .5rem
+    margin-right: .5rem;
 }
 
 #bannerSection .formAction {
