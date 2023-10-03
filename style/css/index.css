@@ -563,6 +563,12 @@ a{
     border-left: 2px solid #cd992b;
     padding-left: .5rem
 }
+.subHeading1 {
+    font-weight: 400;
+    margin-top: 1rem;
+    border-left: 2px solid #cd992b;
+    padding-left: .5rem
+}
 
 #aboutSection .aboutDiv .content p {
     font-weight: 300
@@ -618,17 +624,142 @@ a{
 #aboutSection .aboutDiv .content .partner p span {
     font-weight: 500
 }
+#aboutSection .aboutDiv .specialities {
+    width: 100%;
+    margin-top: 2.441rem
+}
 
+@media(min-width: 1024px) {
+    #aboutSection .aboutDiv .specialities {
+        width: 50%;
+        max-width: 400px;
+        margin: 0 auto
+    }
+}
+
+#aboutSection .aboutDiv .specialities ul {
+    margin: 0
+}
+
+#aboutSection .aboutDiv .specialities ul li {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    background-color: #fff;
+    margin-bottom: 1rem
+}
+
+#aboutSection .aboutDiv .specialities ul li img {
+    width: 50px;
+    opacity: .3
+}
+
+@media(min-width: 1024px) {
+    #aboutSection .aboutDiv .specialities ul li img {
+        width: 50px
+    }
+}
+
+#aboutSection .aboutDiv .specialities ul li .textDiv {
+    padding-left: 1rem
+}
+
+@media(min-width: 1024px) {
+    #aboutSection .aboutDiv .specialities ul li .textDiv {
+        padding-left: 1.563rem
+    }
+}
+
+#aboutSection .aboutDiv .specialities ul li .textDiv span {
+    display: block;
+    color: #0eb1a7;
+    font-size: 2.441rem;
+    font-weight: 300;
+    margin-bottom: .5rem;
+    background: #0eb1a7;
+    background: linear-gradient(to right, #0eb1a7 7%, #64c399 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0)
+}
+
+#aboutSection .aboutDiv .specialities ul li .textDiv p {
+    margin: 0;
+    color: #242323;
+    font-weight: 300;
+    line-height: 1.2
+}
+
+.image img {
+    max-width: 80%;
+    height: auto;
+}
+
+@media (max-width: 600px) {
+    .image {
+        display: block;
+        font-size: 80%;
+    }
+    .image img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+
+    .image div {
+        position: relative;
+        padding-top: 1.3rem;
+    }
+    .image div p {
+    color: #242323;
+    font-weight: 300;
+    text-align: start;
+    }
+}
+.grid {
+    padding-right: 25px!important;
+}
+.grid-1 {
+    padding-left: 25px;
+}
+@media only screen and (max-width: 600px) {
+    #who-we 
+    {display:none;}
+    #about-desk 
+    {display:none;}
+}
+@media only screen and (min-width: 601px) {
+    #who-we-mob
+    {display:none;}
+    .hide-about
+    {display:none;}
+}
+
+#who-we {
+    background-color: #f5f8f8;
+}
+#who-we-mob { 
+    background-color:#f5f8f8;
+}
+
+@media(min-width: 1024px) {
+    #who-we .content p {
+        font-size: 1.25rem
+    }
+}
+.culture {
+    text-align: start;
+    padding-left: 25px;
+}
 
 #wesection .wesection{
-    padding-bottom: 2.441rem;
+    padding-bottom: 1rem;
 }
 #wesection .content p {
     font-weight: 300;
 }
 @media(min-width: 1024px) {
     #wesection .content p {
-        font-size: 1.25rem
+        font-size: 1.25rem!important;
     }
 }
 
@@ -642,24 +773,27 @@ a{
     background-color: #f5f8f8;
     padding: 50px 0px;
 }
-#timeline .heading {
+/* #timeline .heading {
     font-weight: 600;
     display: inline;
     border-bottom: 4px solid #cd992b;
     padding-bottom: 3px;
-} 
+}  */
 .timeline-item {
     padding-top: 20px;
 }
 
 .header-style {
     display: inline;
-    border-bottom: 4px solid #005e5c;
+    border-bottom: 2px solid #005e5c;
     padding-bottom: 3px;
 }
 .heading-para {
     padding-top: 1rem;
+    text-align: start;
+    font-weight: 300;
 }
+
 #aboutSection .vision  {
     padding-top: 2.441rem;
 }
@@ -670,6 +804,9 @@ a{
     }
 }
 
+#vision {
+    background-color: #f5f8f8;
+}
 #bannerSection {
     display: flex;
     flex-direction: column;

@@ -121,25 +121,7 @@ a {
 }
 
 .sectionSpaceT {
-    padding-top: 2.441rem
-}
-
-@media(min-width: 568px) {
-    .sectionSpaceT {
-        padding-top: 3.052rem
-    }
-}
-
-@media(min-width: 768px) {
-    .sectionSpaceT {
-        padding-top: 3.815rem
-    }
-}
-
-@media(min-width: 1800px) {
-    .sectionSpaceT {
-        padding-top: 4.768rem
-    }
+    padding-top: 1rem
 }
 
 .sectionSpaceB {
@@ -406,9 +388,15 @@ a {
 #mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu1:hover {
     color: #005e5c
 }
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .now {
+    color: #005e5c
+}
 
 @media(min-width: 1280px) {
     #mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu1:hover {
+        border-bottom: 2px solid #cd992b
+    }
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv .now {
         border-bottom: 2px solid #cd992b
     }
 }
