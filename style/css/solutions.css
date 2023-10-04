@@ -76,7 +76,7 @@
     flex-wrap: wrap;
     background-color: #fff;
     margin-bottom: 2.441rem;
-    cursor: pointer
+    
 }
 
 #solutionSection .serviceCard:hover .content .more::before {
@@ -86,7 +86,7 @@
 #solutionSection .serviceCard .content {
     width: 100%;
     padding: 1.563rem;
-    cursor: pointer
+    
 }
 
 @media(min-width: 1024px) {
@@ -105,7 +105,7 @@
 #solutionSection .serviceCard .content .title {
     margin: 0;
     font-weight: 300;
-    cursor: pointer
+    
 }
 
 #solutionSection .serviceCard .content .subHeading {
@@ -135,7 +135,7 @@
 }
 
 #solutionSection .serviceCard .content p {
-    cursor: pointer
+    
 }
 
 @media(min-width: 1024px) {
@@ -150,7 +150,7 @@
     color: #0b0b0b;
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    cursor: pointer;
+    ;
     transition: all .3s cubic-bezier(0, 0, 0.5, 1)
 }
 
@@ -168,7 +168,7 @@
     margin-bottom: 5px;
     margin-right: .5rem;
     background-color: #0eb1a7;
-    cursor: pointer;
+    ;
     transition: all .3s cubic-bezier(0, 0, 0.5, 1)
 }
 
@@ -246,7 +246,7 @@
     flex-wrap: wrap;
     background-color: #fff;
     margin-bottom: 2.441rem;
-    cursor: pointer
+    
 }
 
 #productSection .serviceCard:hover .content .more::before {
@@ -256,7 +256,7 @@
 #productSection .serviceCard .content {
     width: 100%;
     padding: 1.563rem;
-    cursor: pointer
+    
 }
 
 @media(min-width: 1024px) {
@@ -274,7 +274,7 @@
 #productSection .serviceCard .content .title {
     margin: 0;
     font-weight: 300;
-    cursor: pointer
+    
 }
 
 #productSection .serviceCard .content .subHeading {
@@ -304,7 +304,7 @@
 }
 
 #productSection .serviceCard .content p {
-    cursor: pointer
+    
 }
 
 @media(min-width: 1024px) {
@@ -319,7 +319,7 @@
     color: #0b0b0b;
     font-family: "Oswald", sans-serif;
     font-weight: 300;
-    cursor: pointer;
+    ;
     transition: all .3s cubic-bezier(0, 0, 0.5, 1)
 }
 
@@ -337,7 +337,7 @@
     margin-bottom: 5px;
     margin-right: .5rem;
     background-color: #0eb1a7;
-    cursor: pointer;
+    ;
     transition: all .3s cubic-bezier(0, 0, 0.5, 1)
 }
 
@@ -544,5 +544,14 @@
 #featuredProductSection2 .slider .slide-track .slide p {
     font-weight: 300
 }
-
+/* .title {
+    font-size: 2.601rem;
+    font-weight: 400!important;
+}
+.content p {
+    font-weight: 350;
+    font-size: 1.332rem;
+    letter-spacing: normal;
+    line-height: 1.998rem;
+} */
 /*# sourceMappingURL=solutions.css.map */
