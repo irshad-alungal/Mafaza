@@ -468,8 +468,19 @@ a {
     background-color: #005e5c
 }
 
+#mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenu .now {
+    bottom: 0;
+    color: #fff;
+    background-color: #005e5c
+}
+
+
 @media(min-width: 1280px) {
     #mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenu a:hover {
+        color: #cd992b;
+        background-color: #fff
+    }
+    #mainContainer #headerSection #menuSection .menuContainer .menuDiv .subMenu .now {
         color: #cd992b;
         background-color: #fff
     }

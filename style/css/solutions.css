@@ -1,1 +1,548 @@
-.color1{background:#0eb1a7;background:linear-gradient(to right, #0EB1A7 7%, #64C399 100%);-webkit-background-clip:text;-webkit-text-fill-color:rgba(0,0,0,0)}#roboticWallSection{margin-bottom:2.441rem}#roboticWallSection .aboutDiv{background-color:#0eb1a7;background:linear-gradient(to left top, #0eb1a7, #3cb99f, #5ac097, #76c68e, #91cc87);padding:1.563rem}@media(min-width: 1024px){#roboticWallSection .aboutDiv{padding:2.441rem}}@media(min-width: 1280px){#roboticWallSection .aboutDiv{padding:3.052rem}}#roboticWallSection .aboutDiv .content{width:100%}#roboticWallSection .aboutDiv .content .heading{color:#fff}#roboticWallSection .aboutDiv .content .subHeading{color:#fff;font-weight:400;margin-top:1rem;border-left:2px solid #0eb1a7;padding-left:.5rem}#roboticWallSection .aboutDiv .content p{font-weight:300}@media(min-width: 1024px){#roboticWallSection .aboutDiv .content p{font-size:1.25rem}}#roboticWallSection .aboutDiv .content img{margin-top:1rem;width:150px;background-color:#fff;padding:.5rem}@media(min-width: 1024px){#roboticWallSection .aboutDiv .content img{width:200px}}#solutionSection{background-color:#f5f8f8}#solutionSection .serviceCard{min-height:400px;display:flex;flex-wrap:wrap;background-color:#fff;margin-bottom:2.441rem;cursor:pointer}#solutionSection .serviceCard:hover .content .more::before{width:40px}#solutionSection .serviceCard .content{width:100%;padding:1.563rem;cursor:pointer}@media(min-width: 1024px){#solutionSection .serviceCard .content{width:70%;padding:2.441rem}}@media(min-width: 1280px){#solutionSection .serviceCard .content{padding:3.052rem}}#solutionSection .serviceCard .content .title{margin:0;font-weight:300;cursor:pointer}#solutionSection .serviceCard .content .subHeading{margin:0;margin-top:1rem;margin-bottom:1rem;font-weight:400}#solutionSection .serviceCard .content ul{padding-left:1.25rem}#solutionSection .serviceCard .content ul li{font-weight:300;list-style:disc}@media(min-width: 1024px){#solutionSection .serviceCard .content ul li{font-size:1.25rem}}#solutionSection .serviceCard .content ul li::marker{color:#0eb1a7}#solutionSection .serviceCard .content p{cursor:pointer}@media(min-width: 1024px){#solutionSection .serviceCard .content p{font-size:1.25rem}}#solutionSection .serviceCard .content .more{display:block;margin-top:1rem;color:#0b0b0b;font-family:"Oswald",sans-serif;font-weight:300;cursor:pointer;transition:all .3s cubic-bezier(0, 0, 0.5, 1)}@media(min-width: 1024px){#solutionSection .serviceCard .content .more{font-size:1.25rem}}#solutionSection .serviceCard .content .more::before{content:"";width:30px;height:2px;display:inline-block;margin-bottom:5px;margin-right:.5rem;background-color:#0eb1a7;cursor:pointer;transition:all .3s cubic-bezier(0, 0, 0.5, 1)}#solutionSection .serviceCard .imageDiv{width:100%;min-height:300px}@media(min-width: 1024px){#solutionSection .serviceCard .imageDiv{width:30%}}#solutionSection .serviceCard .imageDiv .arrow{position:absolute;bottom:.5rem;right:.5rem;width:50px}@media(min-width: 1024px){#solutionSection .serviceCard .imageDiv .arrow{width:100px}}#solutionSection .partner{max-width:650px;display:flex;flex-direction:column;align-items:center;margin-top:1rem;background-color:#f5f8f8;padding:1rem}@media(min-width: 568px){#solutionSection .partner{flex-direction:row}}#solutionSection .partner img{width:8rem}#solutionSection .partner p{margin:0;text-align:center;font-size:1rem;border-top:1px solid #0eb1a7;padding-top:1rem;margin-top:1rem}@media(min-width: 568px){#solutionSection .partner p{text-align:left;border:none;border-left:1px solid #0eb1a7;padding:0;padding-left:1rem;margin:0;margin-left:1rem}}#solutionSection .partner p span{font-weight:500}#productSection .serviceCard{display:flex;flex-wrap:wrap;background-color:#fff;margin-bottom:2.441rem;cursor:pointer}#productSection .serviceCard:hover .content .more::before{width:40px}#productSection .serviceCard .content{width:100%;padding:1.563rem;cursor:pointer}@media(min-width: 1024px){#productSection .serviceCard .content{padding:2.441rem}}@media(min-width: 1280px){#productSection .serviceCard .content{padding:3.052rem}}#productSection .serviceCard .content .title{margin:0;font-weight:300;cursor:pointer}#productSection .serviceCard .content .subHeading{margin:0;margin-top:1rem;margin-bottom:1rem;font-weight:400}#productSection .serviceCard .content ul{padding-left:1.25rem}#productSection .serviceCard .content ul li{font-weight:300;list-style:disc}@media(min-width: 1024px){#productSection .serviceCard .content ul li{font-size:1.25rem}}#productSection .serviceCard .content ul li::marker{color:#0eb1a7}#productSection .serviceCard .content p{cursor:pointer}@media(min-width: 1024px){#productSection .serviceCard .content p{font-size:1.25rem}}#productSection .serviceCard .content .more{display:block;margin-top:1rem;color:#0b0b0b;font-family:"Oswald",sans-serif;font-weight:300;cursor:pointer;transition:all .3s cubic-bezier(0, 0, 0.5, 1)}@media(min-width: 1024px){#productSection .serviceCard .content .more{font-size:1.25rem}}#productSection .serviceCard .content .more::before{content:"";width:30px;height:2px;display:inline-block;margin-bottom:5px;margin-right:.5rem;background-color:#0eb1a7;cursor:pointer;transition:all .3s cubic-bezier(0, 0, 0.5, 1)}#pageWallSection{width:100%;background-color:#fff}#pageWallSection .pageWallBanner{width:100%;min-height:50vh;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;overflow:hidden;padding:1rem;color:#fff;background-color:#91cc87;background-position:center;background-repeat:no-repeat;background-size:cover}@media(min-width: 1024px){#pageWallSection .pageWallBanner{padding:2.441rem}}#pageWallSection .pageWallBanner .heading{color:inherit;margin-bottom:1rem}#pageWallSection .pageWallBanner .subHeading{color:inherit;font-weight:300;border-left:3px solid #0eb1a7;padding-left:.5rem}#drugSourcingSection{background-color:#f5f8f8}#drugSourcingSection .label{color:#0eb1a7;font-weight:500}#drugSourcingSection .serviceDiv{margin:0 auto;display:flex;justify-content:flex-start;flex-wrap:wrap}#drugSourcingSection .serviceDiv .serviceCard{width:100%;display:flex;flex-direction:column;background-color:#fff;padding:1.563rem 1rem;margin:0 .5%;margin-bottom:1.563rem;box-shadow:rgba(50,50,93,.055) 0px 13px 27px -5px,rgba(0,0,0,.075) 0px 8px 16px -8px}@media(min-width: 1024px){#drugSourcingSection .serviceDiv .serviceCard{width:49%}}#drugSourcingSection .serviceDiv .serviceCard::before{content:"";position:absolute;top:0;left:50%;width:40px;height:3px;border-radius:4vh;margin-left:-20px}#drugSourcingSection .serviceDiv .serviceCard .title{margin:0;color:#0b0b0b;font-weight:400;border-left:3px solid #0eb1a7;padding-left:.5rem}#drugSourcingSection .serviceDiv .serviceCard p{margin-top:.5rem}#drugSourcingSection .serviceDiv .serviceCard .btn{margin-top:auto;width:100%}#featuredProductSection{overflow:hidden}#featuredProductSection .title{margin:0;margin-bottom:1rem;text-align:center;color:#0b0b0b;font-weight:300}#featuredProductSection .slider{overflow:hidden;margin:auto;margin-top:.9rem;display:flex}#featuredProductSection .slider .slide-track{display:flex;flex-wrap:wrap;justify-content:center}#featuredProductSection .slider .slide-track .slide{display:flex;flex-direction:column;align-items:center;text-align:center;width:160px;padding:0 1.5rem}@media(min-width: 768px){#featuredProductSection .slider .slide-track .slide{width:25%;margin-bottom:1rem;padding:.5rem}}#featuredProductSection .slider .slide-track .slide img{width:120px;height:150px;object-fit:contain}#featuredProductSection .slider .slide-track .slide p{font-weight:300}#featuredProductSection2{overflow:hidden}#featuredProductSection2 .title{margin:0;margin-bottom:1rem;text-align:center;color:#0b0b0b;font-weight:300}#featuredProductSection2 .slider{justify-content:center;overflow:hidden;margin:auto;margin-top:.9rem;display:flex}#featuredProductSection2 .slider .slide-track{display:flex;flex-wrap:wrap;justify-content:center}#featuredProductSection2 .slider .slide-track .slide{display:flex;flex-direction:column;align-items:center;text-align:center;width:160px;padding:0 1.5rem}@media(min-width: 768px){#featuredProductSection2 .slider .slide-track .slide{margin-bottom:1rem;padding:.5rem}}#featuredProductSection2 .slider .slide-track .slide img{width:120px;height:150px;object-fit:contain}#featuredProductSection2 .slider .slide-track .slide p{font-weight:300}/*# sourceMappingURL=solutions.css.map */
+.color1 {
+    background: #0eb1a7;
+    background: linear-gradient(to right, #0EB1A7 7%, #64C399 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0)
+}
+
+#roboticWallSection {
+    margin-bottom: 2.441rem
+}
+
+#roboticWallSection .aboutDiv {
+    background-color: #0eb1a7;
+    background: linear-gradient(to left top, #0eb1a7, #3cb99f, #5ac097, #76c68e, #91cc87);
+    padding: 1.563rem
+}
+
+@media(min-width: 1024px) {
+    #roboticWallSection .aboutDiv {
+        padding: 2.441rem
+    }
+}
+
+@media(min-width: 1280px) {
+    #roboticWallSection .aboutDiv {
+        padding: 3.052rem
+    }
+}
+
+#roboticWallSection .aboutDiv .content {
+    width: 100%
+}
+
+#roboticWallSection .aboutDiv .content .heading {
+    color: #fff
+}
+
+#roboticWallSection .aboutDiv .content .subHeading {
+    color: #fff;
+    font-weight: 400;
+    margin-top: 1rem;
+    border-left: 2px solid #0eb1a7;
+    padding-left: .5rem
+}
+
+#roboticWallSection .aboutDiv .content p {
+    font-weight: 300
+}
+
+@media(min-width: 1024px) {
+    #roboticWallSection .aboutDiv .content p {
+        font-size: 1.25rem
+    }
+}
+
+#roboticWallSection .aboutDiv .content img {
+    margin-top: 1rem;
+    width: 150px;
+    background-color: #fff;
+    padding: .5rem
+}
+
+@media(min-width: 1024px) {
+    #roboticWallSection .aboutDiv .content img {
+        width: 200px
+    }
+}
+
+#solutionSection {
+    background-color: #f5f8f8
+}
+
+#solutionSection .serviceCard {
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-bottom: 2.441rem;
+    cursor: pointer
+}
+
+#solutionSection .serviceCard:hover .content .more::before {
+    width: 40px
+}
+
+#solutionSection .serviceCard .content {
+    width: 100%;
+    padding: 1.563rem;
+    cursor: pointer
+}
+
+@media(min-width: 1024px) {
+    #solutionSection .serviceCard .content {
+        width: 70%;
+        padding: 2.441rem
+    }
+}
+
+@media(min-width: 1280px) {
+    #solutionSection .serviceCard .content {
+        padding: 3.052rem
+    }
+}
+
+#solutionSection .serviceCard .content .title {
+    margin: 0;
+    font-weight: 300;
+    cursor: pointer
+}
+
+#solutionSection .serviceCard .content .subHeading {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400
+}
+
+#solutionSection .serviceCard .content ul {
+    padding-left: 1.25rem
+}
+
+#solutionSection .serviceCard .content ul li {
+    font-weight: 300;
+    list-style: disc
+}
+
+@media(min-width: 1024px) {
+    #solutionSection .serviceCard .content ul li {
+        font-size: 1.25rem
+    }
+}
+
+#solutionSection .serviceCard .content ul li::marker {
+    color: #0eb1a7
+}
+
+#solutionSection .serviceCard .content p {
+    cursor: pointer
+}
+
+@media(min-width: 1024px) {
+    #solutionSection .serviceCard .content p {
+        font-size: 1.25rem
+    }
+}
+
+#solutionSection .serviceCard .content .more {
+    display: block;
+    margin-top: 1rem;
+    color: #0b0b0b;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
+}
+
+@media(min-width: 1024px) {
+    #solutionSection .serviceCard .content .more {
+        font-size: 1.25rem
+    }
+}
+
+#solutionSection .serviceCard .content .more::before {
+    content: "";
+    width: 30px;
+    height: 2px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: .5rem;
+    background-color: #0eb1a7;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
+}
+
+#solutionSection .serviceCard .imageDiv {
+    width: 100%;
+    min-height: 300px
+}
+
+@media(min-width: 1024px) {
+    #solutionSection .serviceCard .imageDiv {
+        width: 30%
+    }
+}
+
+#solutionSection .serviceCard .imageDiv .arrow {
+    position: absolute;
+    bottom: .5rem;
+    right: .5rem;
+    width: 50px
+}
+
+@media(min-width: 1024px) {
+    #solutionSection .serviceCard .imageDiv .arrow {
+        width: 100px
+    }
+}
+
+#solutionSection .partner {
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    background-color: #f5f8f8;
+    padding: 1rem
+}
+
+@media(min-width: 568px) {
+    #solutionSection .partner {
+        flex-direction: row
+    }
+}
+
+#solutionSection .partner img {
+    width: 8rem
+}
+
+#solutionSection .partner p {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    border-top: 1px solid #0eb1a7;
+    padding-top: 1rem;
+    margin-top: 1rem
+}
+
+@media(min-width: 568px) {
+    #solutionSection .partner p {
+        text-align: left;
+        border: none;
+        border-left: 1px solid #0eb1a7;
+        padding: 0;
+        padding-left: 1rem;
+        margin: 0;
+        margin-left: 1rem
+    }
+}
+
+#solutionSection .partner p span {
+    font-weight: 500
+}
+
+#productSection .serviceCard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-bottom: 2.441rem;
+    cursor: pointer
+}
+
+#productSection .serviceCard:hover .content .more::before {
+    width: 40px
+}
+
+#productSection .serviceCard .content {
+    width: 100%;
+    padding: 1.563rem;
+    cursor: pointer
+}
+
+@media(min-width: 1024px) {
+    #productSection .serviceCard .content {
+        padding: 2.441rem
+    }
+}
+
+@media(min-width: 1280px) {
+    #productSection .serviceCard .content {
+        padding: 3.052rem
+    }
+}
+
+#productSection .serviceCard .content .title {
+    margin: 0;
+    font-weight: 300;
+    cursor: pointer
+}
+
+#productSection .serviceCard .content .subHeading {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400
+}
+
+#productSection .serviceCard .content ul {
+    padding-left: 1.25rem
+}
+
+#productSection .serviceCard .content ul li {
+    font-weight: 300;
+    list-style: disc
+}
+
+@media(min-width: 1024px) {
+    #productSection .serviceCard .content ul li {
+        font-size: 1.25rem
+    }
+}
+
+#productSection .serviceCard .content ul li::marker {
+    color: #0eb1a7
+}
+
+#productSection .serviceCard .content p {
+    cursor: pointer
+}
+
+@media(min-width: 1024px) {
+    #productSection .serviceCard .content p {
+        font-size: 1.25rem
+    }
+}
+
+#productSection .serviceCard .content .more {
+    display: block;
+    margin-top: 1rem;
+    color: #0b0b0b;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
+}
+
+@media(min-width: 1024px) {
+    #productSection .serviceCard .content .more {
+        font-size: 1.25rem
+    }
+}
+
+#productSection .serviceCard .content .more::before {
+    content: "";
+    width: 30px;
+    height: 2px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: .5rem;
+    background-color: #0eb1a7;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
+}
+
+#pageWallSection {
+    width: 100%;
+    background-color: #fff
+}
+
+#pageWallSection .pageWallBanner {
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    overflow: hidden;
+    padding: 1rem;
+    color: #fff;
+    background-color: #91cc87;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+@media(min-width: 1024px) {
+    #pageWallSection .pageWallBanner {
+        padding: 2.441rem
+    }
+}
+
+#pageWallSection .pageWallBanner .heading {
+    color: inherit;
+    margin-bottom: 1rem
+}
+
+#pageWallSection .pageWallBanner .subHeading {
+    color: inherit;
+    font-weight: 300;
+    border-left: 3px solid #0eb1a7;
+    padding-left: .5rem
+}
+
+#drugSourcingSection {
+    background-color: #f5f8f8
+}
+
+#drugSourcingSection .label {
+    color: #0eb1a7;
+    font-weight: 500
+}
+
+#drugSourcingSection .serviceDiv {
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap
+}
+
+#drugSourcingSection .serviceDiv .serviceCard {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 1.563rem 1rem;
+    margin: 0 .5%;
+    margin-bottom: 1.563rem;
+    box-shadow: rgba(50, 50, 93, .055) 0px 13px 27px -5px, rgba(0, 0, 0, .075) 0px 8px 16px -8px
+}
+
+@media(min-width: 1024px) {
+    #drugSourcingSection .serviceDiv .serviceCard {
+        width: 49%
+    }
+}
+
+#drugSourcingSection .serviceDiv .serviceCard::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 40px;
+    height: 3px;
+    border-radius: 4vh;
+    margin-left: -20px
+}
+
+#drugSourcingSection .serviceDiv .serviceCard .title {
+    margin: 0;
+    color: #0b0b0b;
+    font-weight: 400;
+    border-left: 3px solid #0eb1a7;
+    padding-left: .5rem
+}
+
+#drugSourcingSection .serviceDiv .serviceCard p {
+    margin-top: .5rem
+}
+
+#drugSourcingSection .serviceDiv .serviceCard .btn {
+    margin-top: auto;
+    width: 100%
+}
+
+#featuredProductSection {
+    overflow: hidden
+}
+
+#featuredProductSection .title {
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #0b0b0b;
+    font-weight: 300
+}
+
+#featuredProductSection .slider {
+    overflow: hidden;
+    margin: auto;
+    margin-top: .9rem;
+    display: flex
+}
+
+#featuredProductSection .slider .slide-track {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+#featuredProductSection .slider .slide-track .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    padding: 0 1.5rem
+}
+
+@media(min-width: 768px) {
+    #featuredProductSection .slider .slide-track .slide {
+        width: 25%;
+        margin-bottom: 1rem;
+        padding: .5rem
+    }
+}
+
+#featuredProductSection .slider .slide-track .slide img {
+    width: 120px;
+    height: 150px;
+    object-fit: contain
+}
+
+#featuredProductSection .slider .slide-track .slide p {
+    font-weight: 300
+}
+
+#featuredProductSection2 {
+    overflow: hidden
+}
+
+#featuredProductSection2 .title {
+    margin: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #0b0b0b;
+    font-weight: 300
+}
+
+#featuredProductSection2 .slider {
+    justify-content: center;
+    overflow: hidden;
+    margin: auto;
+    margin-top: .9rem;
+    display: flex
+}
+
+#featuredProductSection2 .slider .slide-track {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
+#featuredProductSection2 .slider .slide-track .slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    padding: 0 1.5rem
+}
+
+@media(min-width: 768px) {
+    #featuredProductSection2 .slider .slide-track .slide {
+        margin-bottom: 1rem;
+        padding: .5rem
+    }
+}
+
+#featuredProductSection2 .slider .slide-track .slide img {
+    width: 120px;
+    height: 150px;
+    object-fit: contain
+}
+
+#featuredProductSection2 .slider .slide-track .slide p {
+    font-weight: 300
+}
+
+/*# sourceMappingURL=solutions.css.map */

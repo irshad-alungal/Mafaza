@@ -1,1 +1,366 @@
-#wallSection .aboutDiv{background-color:#0eb1a7;background:linear-gradient(to left top, #0eb1a7, #3cb99f, #5ac097, #76c68e, #91cc87);padding:.5rem}@media(min-width: 1024px){#wallSection .aboutDiv{padding:2.441rem}}@media(min-width: 1280px){#wallSection .aboutDiv{padding:3.052rem}}#wallSection .aboutDiv .content{width:100%}#wallSection .aboutDiv .content .heading{color:#fff}#wallSection .aboutDiv .content .subHeading{color:#fff;font-weight:400;margin-top:1rem;border-left:2px solid #0eb1a7;padding-left:.5rem}#wallSection .aboutDiv .content p{font-weight:300}@media(min-width: 1024px){#wallSection .aboutDiv .content p{font-size:1.25rem}}#wallSection .aboutDiv .content img{margin-top:1rem;width:150px;background-color:#fff;padding:.5rem}@media(min-width: 1024px){#wallSection .aboutDiv .content img{width:200px}}.pharmacySection .title,.clinicSection .title{margin-top:0;padding:1rem 0;color:#0b0b0b;font-weight:300}.pharmacySection .contentDiv,.clinicSection .contentDiv{display:flex;flex-wrap:wrap;width:100%}.pharmacySection .contentDiv .content,.clinicSection .contentDiv .content{position:relative;width:100%;padding:.6667rem;background:#f5f8f8;box-shadow:rgba(17,17,26,.05) 0px 1px 0px,rgba(17,17,26,.1) 0px 0px 8px;order:2;z-index:33}@media(min-width: 1024px){.pharmacySection .contentDiv .content,.clinicSection .contentDiv .content{position:absolute;top:17%;right:8%;width:30%;max-width:850px;padding:2.441rem;border-radius:0px}}.pharmacySection .contentDiv .content:hover .more::before,.clinicSection .contentDiv .content:hover .more::before{width:40px}@media(min-width: 1024px){.pharmacySection .contentDiv .content .text,.clinicSection .contentDiv .content .text{font-size:1.25rem}}.pharmacySection .contentDiv .media,.clinicSection .contentDiv .media{width:100%;max-height:550px}@media(min-width: 1024px){.pharmacySection .contentDiv .media,.clinicSection .contentDiv .media{width:70%;overflow:hidden}}.more{display:block;margin-top:1rem;color:#0b0b0b;font-family:"Oswald",sans-serif;font-weight:300;cursor:pointer;transition:all .3s cubic-bezier(0, 0, 0.5, 1)}@media(min-width: 1024px){.more{font-size:1.25rem}}.more::before{content:"";width:30px;height:2px;display:inline-block;margin-bottom:5px;margin-right:.5rem;background-color:#0eb1a7;cursor:pointer;transition:all .3s cubic-bezier(0, 0, 0.5, 1)}#contentBanner{width:100%}#contentBanner .serviceCard{display:flex;flex-wrap:wrap;background-color:#fff;margin-bottom:2.441rem;cursor:pointer;box-shadow:rgba(17,17,26,.05) 0px 1px 0px,rgba(17,17,26,.1) 0px 0px 8px}#contentBanner .serviceCard .content{width:100%;padding:1.563rem;cursor:pointer}@media(min-width: 1024px){#contentBanner .serviceCard .content{padding:2.441rem}}@media(min-width: 1280px){#contentBanner .serviceCard .content{padding:3.052rem}}#contentBanner .serviceCard .content .title{margin:0;font-weight:300;cursor:pointer}#contentBanner .serviceCard .content .subHeading{margin:0;margin-top:1rem;margin-bottom:1rem;font-weight:400}#contentBanner .serviceCard .content ul{padding-left:1.25rem}#contentBanner .serviceCard .content ul li{font-weight:300;list-style:disc}@media(min-width: 1024px){#contentBanner .serviceCard .content ul li{font-size:1.25rem}}#contentBanner .serviceCard .content ul li::marker{color:#0eb1a7}#contentBanner .serviceCard .content p{cursor:pointer}@media(min-width: 1024px){#contentBanner .serviceCard .content p{font-size:1.25rem}}#industriesSection .titleDiv{text-align:center}#industriesSection .titleDiv .title{margin-top:0;margin-bottom:1rem;text-align:center;color:#0b0b0b;font-weight:300}@media(min-width: 1024px){#industriesSection .titleDiv .title{margin-top:2rem}}#industriesSection .cardSection{display:flex;width:100%;flex-direction:column;align-items:center;justify-content:center;flex-wrap:wrap}@media(min-width: 768px){#industriesSection .cardSection{flex-direction:row}}#industriesSection .cardSection .card{width:100%;margin-bottom:.6667rem;box-shadow:rgba(17,17,26,.05) 0px 1px 0px,rgba(17,17,26,.1) 0px 0px 8px}@media(min-width: 768px){#industriesSection .cardSection .card{width:50%;max-width:250px;min-height:250px;margin:1rem}}@media(min-width: 1024px){#industriesSection .cardSection .card{width:31%}}#industriesSection .cardSection .card .imgDiv{width:100%}#industriesSection .cardSection .card .contentDiv{width:100%;text-align:center;padding-bottom:.3333rem}#msmeBanner{width:100%}#msmeBanner .serviceCard{display:flex;flex-wrap:wrap;background-color:#fff;margin-bottom:2.441rem;cursor:pointer;box-shadow:rgba(17,17,26,.05) 0px 1px 0px,rgba(17,17,26,.1) 0px 0px 8px}#msmeBanner .serviceCard .heading{text-align:center}#msmeBanner .serviceCard .content{width:100%;padding:1.563rem;cursor:pointer}@media(min-width: 1024px){#msmeBanner .serviceCard .content{padding:2.441rem}}@media(min-width: 1280px){#msmeBanner .serviceCard .content{padding:3.052rem}}#msmeBanner .serviceCard .content .title{margin:0;font-weight:300;cursor:pointer}#msmeBanner .serviceCard .content:hover .more::before{width:40px}.twoImgSection{display:flex;align-items:center;justify-content:center;flex-wrap:wrap}.twoImgSection .clinicImg{width:100%;margin-bottom:1rem}@media(min-width: 768px){.twoImgSection .clinicImg{width:50%;margin-bottom:unset;border-right:5px solid #fff}}.twoImgSection .PharmacyImg{width:100%}@media(min-width: 768px){.twoImgSection .PharmacyImg{border-left:5px solid #fff;width:50%}}/*# sourceMappingURL=initiative.css.map */
+#wallSection .aboutDiv {
+    background-color: #0eb1a7;
+    background: linear-gradient(to left top, #0eb1a7, #3cb99f, #5ac097, #76c68e, #91cc87);
+    padding: .5rem
+}
+
+@media(min-width: 1024px) {
+    #wallSection .aboutDiv {
+        padding: 2.441rem
+    }
+}
+
+@media(min-width: 1280px) {
+    #wallSection .aboutDiv {
+        padding: 3.052rem
+    }
+}
+
+#wallSection .aboutDiv .content {
+    width: 100%
+}
+
+#wallSection .aboutDiv .content .heading {
+    color: #fff
+}
+
+#wallSection .aboutDiv .content .subHeading {
+    color: #fff;
+    font-weight: 400;
+    margin-top: 1rem;
+    border-left: 2px solid #0eb1a7;
+    padding-left: .5rem
+}
+
+#wallSection .aboutDiv .content p {
+    font-weight: 300
+}
+
+@media(min-width: 1024px) {
+    #wallSection .aboutDiv .content p {
+        font-size: 1.25rem
+    }
+}
+
+#wallSection .aboutDiv .content img {
+    margin-top: 1rem;
+    width: 150px;
+    background-color: #fff;
+    padding: .5rem
+}
+
+@media(min-width: 1024px) {
+    #wallSection .aboutDiv .content img {
+        width: 200px
+    }
+}
+
+.pharmacySection .title,
+.clinicSection .title {
+    margin-top: 0;
+    color: #0b0b0b;
+    font-weight: 300
+}
+
+.pharmacySection .contentDiv,
+.clinicSection .contentDiv {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%
+}
+
+.pharmacySection .contentDiv .content,
+.clinicSection .contentDiv .content {
+    position: relative;
+    width: 100%;
+    padding: .6667rem;
+    background: #f5f8f8;
+    box-shadow: rgba(17, 17, 26, .05) 0px 1px 0px, rgba(17, 17, 26, .1) 0px 0px 8px;
+    order: 2;
+    z-index: 33
+}
+
+@media(min-width: 1024px) {
+
+    .pharmacySection .contentDiv .content,
+    .clinicSection .contentDiv .content {
+        position: absolute;
+        top: 17%;
+        right: 8%;
+        width: 40%;
+        max-width: 850px;
+        padding: 2.441rem;
+        border-radius: 0px
+    }
+}
+
+.pharmacySection .contentDiv .content:hover .more::before,
+.clinicSection .contentDiv .content:hover .more::before {
+    width: 40px
+}
+
+@media(min-width: 1024px) {
+
+    .pharmacySection .contentDiv .content .text,
+    .clinicSection .contentDiv .content .text {
+        font-size: 1.25rem
+    }
+}
+
+.pharmacySection .contentDiv .media,
+.clinicSection .contentDiv .media {
+    width: 100%;
+    max-height: 550px
+}
+
+@media(min-width: 1024px) {
+
+    .pharmacySection .contentDiv .media,
+    .clinicSection .contentDiv .media {
+        width: 70%;
+        overflow: hidden
+    }
+}
+
+.more {
+    display: block;
+    margin-top: 1rem;
+    color: #0b0b0b;
+    font-family: "Oswald", sans-serif;
+    font-weight: 300;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
+}
+
+@media(min-width: 1024px) {
+    .more {
+        font-size: 1.25rem
+    }
+}
+
+.more::before {
+    content: "";
+    width: 30px;
+    height: 2px;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: .5rem;
+    background-color: #0eb1a7;
+    cursor: pointer;
+    transition: all .3s cubic-bezier(0, 0, 0.5, 1)
+}
+
+#contentBanner {
+    width: 100%
+}
+
+#contentBanner .serviceCard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-bottom: 2.441rem;
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, .05) 0px 1px 0px, rgba(17, 17, 26, .1) 0px 0px 8px
+}
+
+#contentBanner .serviceCard .content {
+    width: 100%;
+    padding: 1.563rem;
+    cursor: pointer
+}
+
+@media(min-width: 1024px) {
+    #contentBanner .serviceCard .content {
+        padding: 2.441rem
+    }
+}
+
+@media(min-width: 1280px) {
+    #contentBanner .serviceCard .content {
+        padding: 3.052rem
+    }
+}
+
+#contentBanner .serviceCard .content .title {
+    margin: 0;
+    font-weight: 300;
+    cursor: pointer
+}
+
+#contentBanner .serviceCard .content .subHeading {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400
+}
+
+#contentBanner .serviceCard .content ul {
+    padding-left: 1.25rem
+}
+
+#contentBanner .serviceCard .content ul li {
+    font-weight: 300;
+    list-style: disc
+}
+
+@media(min-width: 1024px) {
+    #contentBanner .serviceCard .content ul li {
+        font-size: 1.25rem
+    }
+}
+
+#contentBanner .serviceCard .content ul li::marker {
+    color: #0eb1a7
+}
+
+#contentBanner .serviceCard .content p {
+    cursor: pointer
+}
+
+@media(min-width: 1024px) {
+    #contentBanner .serviceCard .content p {
+        font-size: 1.25rem
+    }
+}
+
+#industriesSection .titleDiv {
+    text-align: center
+}
+
+#industriesSection .titleDiv .title {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #0b0b0b;
+    font-weight: 300
+}
+
+@media(min-width: 1024px) {
+    #industriesSection .titleDiv .title {
+        margin-top: 2rem
+    }
+}
+
+#industriesSection .cardSection {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+@media(min-width: 768px) {
+    #industriesSection .cardSection {
+        flex-direction: row
+    }
+}
+
+#industriesSection .cardSection .card {
+    width: 100%;
+    margin-bottom: .6667rem;
+    box-shadow: rgba(17, 17, 26, .05) 0px 1px 0px, rgba(17, 17, 26, .1) 0px 0px 8px;
+}
+
+@media(min-width: 768px) {
+    #industriesSection .cardSection .card {
+        width: 50%;
+        max-width: 250px;
+        min-height: 250px;
+        margin: 1rem
+    }
+}
+
+@media(min-width: 1024px) {
+    #industriesSection .cardSection .card {
+        width: 90%
+    }
+}
+
+#industriesSection .cardSection .card .imgDiv {
+    width: 100%
+}
+
+#industriesSection .cardSection .card .contentDiv {
+    width: 100%;
+    text-align: center;
+    padding: .5rem 1rem;
+}
+
+#msmeBanner {
+    width: 100%
+}
+
+#msmeBanner .serviceCard {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    margin-bottom: 2.441rem;
+    cursor: pointer;
+    box-shadow: rgba(17, 17, 26, .05) 0px 1px 0px, rgba(17, 17, 26, .1) 0px 0px 8px
+}
+
+#msmeBanner .serviceCard .heading {
+    text-align: center
+}
+
+#msmeBanner .serviceCard .content {
+    width: 100%;
+    padding: 1.563rem;
+    cursor: pointer
+}
+
+@media(min-width: 1024px) {
+    #msmeBanner .serviceCard .content {
+        padding: 2.441rem
+    }
+}
+
+@media(min-width: 1280px) {
+    #msmeBanner .serviceCard .content {
+        padding: 3.052rem
+    }
+}
+
+#msmeBanner .serviceCard .content .title {
+    margin: 0;
+    font-weight: 300;
+    cursor: pointer
+}
+
+#msmeBanner .serviceCard .content:hover .more::before {
+    width: 40px
+}
+
+.twoImgSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+.twoImgSection .clinicImg {
+    width: 100%;
+    margin-bottom: 1rem
+}
+
+@media(min-width: 768px) {
+    .twoImgSection .clinicImg {
+        width: 50%;
+        margin-bottom: unset;
+        border-right: 5px solid #fff
+    }
+}
+
+.twoImgSection .PharmacyImg {
+    width: 100%
+}
+
+@media(min-width: 768px) {
+    .twoImgSection .PharmacyImg {
+        border-left: 5px solid #fff;
+        width: 50%
+    }
+}
+
+/*# sourceMappingURL=initiative.css.map */
