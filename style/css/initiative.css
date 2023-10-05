@@ -70,7 +70,8 @@
 }
 
 .pharmacySection .contentDiv .content,
-.clinicSection .contentDiv .content {
+.clinicSection .contentDiv .content,
+.clinicSection .contentDiv .content-1 {
     position: relative;
     width: 100%;
     padding: .6667rem;
@@ -92,17 +93,28 @@
         padding: 2.441rem;
         border-radius: 0px
     }
+    .clinicSection .contentDiv .content-1{
+        position: absolute;
+        top: 17%;
+        right: 8%;
+        width: 60%;
+        max-width: 850px;
+        padding: 2.441rem;
+        border-radius: 0px
+    }
 }
 
 .pharmacySection .contentDiv .content:hover .more::before,
-.clinicSection .contentDiv .content:hover .more::before {
+.clinicSection .contentDiv .content:hover .more::before,
+.clinicSection .contentDiv .content-1:hover .more::before {
     width: 40px
 }
 
 @media(min-width: 1024px) {
 
     .pharmacySection .contentDiv .content .text,
-    .clinicSection .contentDiv .content .text {
+    .clinicSection .contentDiv .content .text,
+    .clinicSection .contentDiv .content-1 .text {
         font-size: 1.25rem
     }
 }
