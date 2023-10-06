@@ -347,7 +347,6 @@ a {
 #mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu:hover {
     color: #005e5c
 }
-
 @media(min-width: 1280px) {
     #mainContainer #headerSection #menuSection .menuContainer .menuDiv .mainMenu:hover {
         border-bottom: 2px solid #cd992b
