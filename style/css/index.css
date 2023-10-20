@@ -672,12 +672,12 @@ a{
 
 #aboutSection .aboutDiv .specialities ul li .textDiv span {
     display: block;
-    color: #0eb1a7;
+    color: #005e5c;
     font-size: 2.441rem;
     font-weight: 300;
     margin-bottom: .5rem;
-    background: #0eb1a7;
-    background: linear-gradient(to right, #0eb1a7 7%, #64c399 100%);
+    background: #005e5c;
+    background: linear-gradient(to right, #005e5c 7%, #64c399 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: rgba(0, 0, 0, 0)
 }
@@ -927,4 +927,38 @@ a{
     padding-top: 4rem;
 } */
 
+.row-1 {
+    margin-top: 3rem!important;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+@media(max-width:500px) {
+    .row-1 .title {
+        padding-top: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+.text {
+    font-size: 20px;
+    line-height: 1.99rem;
+}
+}
+.team-img {
+    float: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 267px;
+}
+
+@media (min-width: 992px) {
+    .team-img {
+        float: left;
+        margin-right: 2rem;
+    }
+}
 /*# sourceMappingURL=index.css.map */
